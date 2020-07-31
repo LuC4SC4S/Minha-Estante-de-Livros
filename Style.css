@@ -1,0 +1,152 @@
+/* Minha Estante de Livros CSS*/
+body {
+	background: #471F05 ;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.6;
+}
+header {
+	background-image: url("images/alfons-morales-410757-unsplash-min.jpg");
+	background-size: 100%;
+	border: 1px solid #020100;
+	height: 104px;
+	margin: 20px auto;
+}
+
+h1{
+	background-color: #54321C;
+	font-size: 2.0em;
+	left: -11px;
+	right: -16px;
+	padding: 5px 0;
+	position: relative;
+	text-align: center;
+	width: 980px;
+}
+h1 a{
+	color: #FFC29A;
+	text-decoration: none;
+}
+h1::before {
+	border-color: transparent #54321C #54321C transparent;
+	border-style: solid;
+	border-width: 5px;
+	content: "";
+	left: 0;
+	position: absolute;
+	top: -10px;
+}
+h1::after {
+	border-color: transparent transparent #54321C #54321C;
+	border-style: solid;
+	border-width: 5px;
+	content: "";
+	position: absolute;
+	right: 0;
+	top: -10px;
+}
+ul {
+	list-style-type: none;
+	margin-top: 16px;
+	margin-bottom: 16px;
+    padding: 0;
+	overflow: hidden;
+	background-color: #7C4624;
+	border: 1px solid #020100;
+}
+li {
+	float: left;
+}
+
+li a {
+	color: black;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #7C4624;
+}
+li a:hover {
+	background-color: #B17B58;
+}
+section{
+	font-size: 1.0em;
+	text-align: left;
+	text-shadow: 1px 0.5px gray;
+	background-color: #B17B58;
+	height: 225px;
+	border-color: #CCC #999 #999 #CCC;
+	border: 1px solid #020100;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+section img {
+	float: left;
+	margin: 10px;
+	width: auto;
+	height: 200px;
+}
+footer{
+	background-image: url("images/alfons-morales-410757-unsplash-min.jpg");
+	background-size: 100%;
+	height: 100px;
+	margin: 20px auto;
+	color: #ffffff;
+	font-size: 1.2em;
+	text-align: center;
+	border: 1px solid #020100;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+.taskBar{
+	margin: 0px auto;
+}
+.active{
+	background-color: #1D0B00;
+}
+.places {
+	width: 960px;
+}
+.clear {
+	clear: both;
+}
+.book {
+	font-size:1.0em;
+	text-align: center;
+	float: left;
+	height: 300px;
+	width: 198px;
+	background-color: #B17B58;
+	border-color: #CCC #999 #999 #CCC;
+	border: 1px solid #020100;
+	margin: 20px;
+}
+.book img {
+	margin: 10px 10px 0 0;
+	padding: 2px;
+	width: auto;
+	height: 175px;
+}
+#book-shelf {
+	padding: 10px;
+	
+}
+#show{
+	background-color: #54321C;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 380px;
+	cursor: pointer;
+	border: 1px solid #020100;
+}
+.show{
+	display: none;
+}

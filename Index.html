@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+	<html lang='pt-BR'>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/db85704d13.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<title>Minha Estante de Livros</title>
+		<script>
+			$(document).ready(function(){
+			  $("#show").click(function(){
+				$(".show").fadeToggle();
+			  });
+			});
+		</script>
+	</head>
+	<body>
+		<div class='container'>
+			<div class='taskBar'>
+				<nav>
+					<ul>
+						<li><a href='' target='_self' class='active'><i class="fas fa-home fa-lg"></i></a></li>
+						<li><a href='' target='_self'>Meus Trabalhos</a></li>
+						<li><a href='' target='_self'>Curriculo Digital</a></li>
+						<li  style="float:right"><a href='' target='_self'>Sobre</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class='container'>
+			<div class= 'places'>
+				<section>
+					<img src='images/eu.jpeg'>
+						<h3>Quem sou eu?</h3>
+						<h3>O que faço no momento?</h3>
+						<h3>Meus objetivos</h3>
+				</section>
+			</div>
+		</div>
+		<div class='container'>
+			<header>
+				<h1><a href='Index.html' target='_self'>Minha Estante de Livros</a></h1>
+			</header>
+		</div>
+		<div class='container' id='book-shelf'>
+			<div class='book'>
+				<p><b>A Terra Tem Espaço</b><br>Isaac Asimov</p>
+				<img src='images/a terra tem espaço.jpg'>
+			</div>
+			<div class='book'>
+				<p><b>O mistério do Vale Boscombe</b><br> Sir Artur Conan Doyle</p>
+				<img src='images/vale boscombe.jpg'>
+			</div>
+			<div class='book'>
+				<p><b>O Ladrão de Raios</b><br>Rick Riordan</p>
+				<img src='images/o ladrao de raios.jpg'>
+			</div>
+			<div class='book'>
+				<p><b>O Mar de Monstros</b><br>Rick Riordan</p>
+				<img src='images/o mar de monstros.jpg'>
+			</div>
+			<div class='book'>				
+				<p><b>A Maldição do Titã</b><br>Rick Riordan</p>
+				<img src='images/maldicao do tita.jpg'>
+			</div>
+			<div class='book'>				
+				<p><b>A Batalha no Labirinto</b><br>Rick Riordan</p>
+				<img src='images/batalha labirinto.jpg'>
+			</div>
+			<div class='book'>				
+				<p><b>O Último Olimpiano</b><br>Rick Riordan</p>
+				<img src='images/ultimo olimpiano.jpg'>
+			</div>
+			<div class='book'>				
+				<p><b>Nome do Livro</b><br>Autor</p>
+				<img src=''>
+			</div>
+			<div class='book show'>				
+				<p><b>Nome do Livro</b><br>Autor</p>
+				<img src=''>
+			</div>
+			<div class='book show'>				
+				<p><b>Nome do Livro</b><br>Autor</p>
+				<img src=''>
+			</div>
+			<div class='book show'>				
+				<p><b>Nome do Livro</b><br>Autor</p>
+				<img src=''>
+			</div>
+			<div class='book show'>				
+				<p><b>Nome do Livro</b><br>Autor</p>
+				<img src=''>
+			</div>
+		</div>
+		<div class='container'>
+			<button id="show">Aumentar/Diminuir Estante</button>
+		</div>
+		<div class='container'>
+			<footer>
+					<p>© Lucas Candido</p>
+			</footer>
+		</div>
+	</body>
+</html>
